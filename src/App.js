@@ -258,7 +258,7 @@ const App = () => {
               ))}
             <a
               whileTap={{ scale: 0.8 }}
-              href="tel:061-123-4567"
+              href="tel:0949750112"
               target="blank"
               className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
             >
