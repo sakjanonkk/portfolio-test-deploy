@@ -41,6 +41,7 @@ export const Projects = [
     id: 1,
     name: "Booking Library Project",
     imageSrc: img1,
+    prob: "EN | BOOKING LIBARY",
     techs: "Nextjs, TailwindCSS, NodeJS, FireBase",
     github: "https://github.com/sippam/myJect",
   },
@@ -48,44 +49,34 @@ export const Projects = [
     id: 2,
     name: "Future Project",
     imageSrc: img2,
-    techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
+    prob: "Future Project",
+    techs: "xxxxxxxxxxxxxxxxxxxxx",
     github: "#",
   },
   {
     id: 3,
     name: "Future Project",
     imageSrc: img2,
-    techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
+    prob: "Future Project",
+    techs: "xxxxxxxxxxxxxxxxxxxxx",
     github: "#",
   },
   {
     id: 4,
     name: "Future Project",
     imageSrc: img2,
-    techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
+    prob: "Future Project",
+    techs: "xxxxxxxxxxxxxxxxxxxxxx",
     github: "#",
   },
   {
     id: 5,
     name: "Future Project",
     imageSrc: img2,
-    techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
+    prob: "Future Project",
+    techs: "xxxxxxxxxxxxxxxxxxxxxx",
     github: "#",
   },
-  {
-    id: 6,
-    name: "Future Project",
-    imageSrc: img2,
-    techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
-    github: "#",
-  },
-  // {
-  //   id: 7,
-  //   name: "Future Project",
-  //   imageSrc: img2,
-  //   techs: "ReactJS, TailwindCSS, NodeJS, MongoDB",
-  //   github: "#",
-  // },
 ];
 
 export const SocialLinks = [
@@ -98,7 +89,7 @@ export const SocialLinks = [
     link: "https://github.com/sakjanonkk",
   },
   {
-    id: 1,
+    id: 2,
     iconSrc: (
       <IoLogoYoutube className="text-slate-100 text-3xl cursor-pointer" />
     ),
@@ -106,7 +97,7 @@ export const SocialLinks = [
     link: "https://www.youtube.com/channel/UCjQsjVBoj-qjQZMQtreWTcQ",
   },
   {
-    id: 1,
+    id: 3,
     iconSrc: (
       <BsInstagram className=" text-slate-100 text-3xl cursor-pointer" />
     ),
@@ -114,7 +105,7 @@ export const SocialLinks = [
     link: "https://www.instagram.com/sakjanonk/",
   },
   {
-    id: 1,
+    id: 4,
     iconSrc: (
       <IoLogoFacebook className="text-slate-100 text-3xl cursor-pointer" />
     ),
@@ -122,7 +113,7 @@ export const SocialLinks = [
     link: "https://www.facebook.com/sakjanon.kamoldung.9",
   },
   {
-    id: 1,
+    id: 5,
     iconSrc: (
       <IoLogoWhatsapp className="text-slate-100 text-3xl cursor-pointer" />
     ),

@@ -166,7 +166,7 @@ const App = () => {
         {/*  Timeline  */}
         <div className="py-10">
           <p className="flex justify-center items-center text-white text-lg uppercase ">
-            My Education
+            {/* My Education */}
           </p>
         </div>
         <section className="w-full flex items-center justify-center">
@@ -219,7 +219,7 @@ const App = () => {
                 ></img>
                 <div className="flex flex-1 items-center justify-between">
                   <p className="text-lg text-gray-300">
-                    Booking Library Project{" "}
+                    {n.prob}
                     <span className="block text-sm text-gray-500">
                       {n.techs}
                     </span>
