@@ -2,10 +2,9 @@ import {
   IoCodeWorkingOutline,
   IoLogoFacebook,
   IoLogoGithub,
-  IoLogoWhatsapp,
   IoLogoYoutube,
 } from "react-icons/io5";
-
+import { AiFillPhone } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import img1 from "./images/library.png";
 import img2 from "./images/404.jpg";
@@ -114,10 +113,8 @@ export const SocialLinks = [
   },
   {
     id: 5,
-    iconSrc: (
-      <IoLogoWhatsapp className="text-slate-100 text-3xl cursor-pointer" />
-    ),
-    name: "Whatsapp",
-    link: "#",
+    iconSrc: <AiFillPhone className="text-slate-100 text-3xl cursor-pointer" />,
+    name: "Phone number",
+    link: "0949750112",
   },
 ];
