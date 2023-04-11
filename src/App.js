@@ -11,6 +11,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Experience, SocialLinks } from "./data";
 import { Projects } from "./data";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const App = () => {
   const [isActive, setIsActive] = useState(false);
@@ -255,6 +256,15 @@ const App = () => {
                   <p className="text-lg text-textBase">{n.name}</p>
                 </a>
               ))}
+            <a
+              whileTap={{ scale: 0.8 }}
+              href="tel:061-123-4567"
+              target="blank"
+              className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
+            >
+              <BsFillTelephoneFill className="text-white" />
+              <p className="text-lg text-textBase">Phone Number</p>
+            </a>
           </div>
         </section>
       </main>

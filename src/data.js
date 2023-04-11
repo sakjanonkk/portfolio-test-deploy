@@ -4,7 +4,7 @@ import {
   IoLogoGithub,
   IoLogoYoutube,
 } from "react-icons/io5";
-import { AiFillPhone } from "react-icons/ai";
+// import { AiFillPhone } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import img1 from "./images/library.png";
 import img2 from "./images/404.jpg";
@@ -111,10 +111,10 @@ export const SocialLinks = [
     name: "Facebook",
     link: "https://www.facebook.com/sakjanon.kamoldung.9",
   },
-  {
-    id: 5,
-    iconSrc: <AiFillPhone className="text-slate-100 text-3xl cursor-pointer" />,
-    name: "Phone number",
-    link: "0949750112",
-  },
+  // {
+  //   id: 5,
+  //   iconSrc: <AiFillPhone className="text-slate-100 text-3xl cursor-pointer" />,
+  //   name: "Phone number",
+  //   link: "0949750112",
+  // },
 ];
