@@ -2,8 +2,6 @@ import {
   IoCodeWorkingOutline,
   IoLogoFacebook,
   IoLogoGithub,
-  IoLogoLinkedin,
-  IoLogoTwitter,
   IoLogoWhatsapp,
   IoLogoYoutube,
 } from "react-icons/io5";

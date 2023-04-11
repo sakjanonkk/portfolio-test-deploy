@@ -11,7 +11,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Experience, SocialLinks } from "./data";
 import { Projects } from "./data";
-import ReactTyped from "react-typed";
 
 const App = () => {
   const [isActive, setIsActive] = useState(false);
