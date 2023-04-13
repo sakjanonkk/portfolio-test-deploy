@@ -15,30 +15,30 @@ export const Experience = [
     iconsSrc: <IoCodeWorkingOutline />,
     title: "Computer Engineer Student",
     location: "Khon Kaen, Thailand",
-    description: "Grade 3.XX",
+    description: "I'm currently learning front-end web development",
   },
   {
     id: 2,
-    date: "2019 - 2022",
+    date: "2016 - 2022",
     iconsSrc: <IoCodeWorkingOutline />,
     title: "Science Mathematics Student",
-    location: "Watpapradoo Rayong, Thailand",
-    description: "Grade 3.82",
+    location: "Rayong, Thailand",
+    description: "Practiced programming",
   },
-  {
-    id: 3,
-    date: "2016 - 2019",
-    iconsSrc: <IoCodeWorkingOutline />,
-    title: "Mini English Program Student",
-    location: "Watpapradoo Rayong, Thailand",
-    description: "Grade 3.75",
-  },
+  // {
+  //   id: 3,
+  //   date: "2016 - 2019",
+  //   iconsSrc: <IoCodeWorkingOutline />,
+  //   title: "Mini English Program Student",
+  //   location: "Watpapradoo Rayong, Thailand",
+  //   description: "Grade 3.75",
+  // },
 ];
 
 export const Projects = [
   {
     id: 1,
-    name: "Booking Library Project",
+    name: "Library Project | 2023",
     imageSrc: img1,
     prob: "EN | BOOKING LIBARY",
     techs: "Nextjs, TailwindCSS, NodeJS, FireBase",
@@ -46,7 +46,7 @@ export const Projects = [
   },
   {
     id: 2,
-    name: "Future Project",
+    name: "Future Project | 202x",
     imageSrc: img2,
     prob: "Future Project",
     techs: "xxxxxxxxxxxxxxxxxxxxx",
@@ -54,7 +54,7 @@ export const Projects = [
   },
   {
     id: 3,
-    name: "Future Project",
+    name: "Future Project | 202x",
     imageSrc: img2,
     prob: "Future Project",
     techs: "xxxxxxxxxxxxxxxxxxxxx",
@@ -62,7 +62,7 @@ export const Projects = [
   },
   {
     id: 4,
-    name: "Future Project",
+    name: "Future Project | 202x",
     imageSrc: img2,
     prob: "Future Project",
     techs: "xxxxxxxxxxxxxxxxxxxxxx",
@@ -70,7 +70,7 @@ export const Projects = [
   },
   {
     id: 5,
-    name: "Future Project",
+    name: "Future Project | 202x",
     imageSrc: img2,
     prob: "Future Project",
     techs: "xxxxxxxxxxxxxxxxxxxxxx",

@@ -135,12 +135,14 @@ const App = () => {
         <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
           {/* Image box */}
           <div className="w-full h-420 flex items-center justify-center">
-            <div className="w-275 h-340 bg-[#f0dc6f] rounded-md relative">
-              <img
-                className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg shadow-md"
-                src={Beerss}
-                alt=""
-              ></img>
+            <div>
+              <div className="w-275 h-340  rounded-md relative  hover:scale-105 ease-in duration-300 bg-[#ffe901] bg-gradient-to-r from-[#ffa000]">
+                <img
+                  className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg shadow-md"
+                  src={Beerss}
+                  alt=""
+                ></img>
+              </div>
             </div>
           </div>
           {/* Content box */}
