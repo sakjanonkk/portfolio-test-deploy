@@ -11,7 +11,7 @@ import { BsInstagram } from "react-icons/bs";
 
 // Import Swiper components and styles
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Spline from "@splinetool/react-spline";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -295,6 +295,25 @@ const App = () => {
               </div>
             ))}
         </section>
+        <div
+          className="relative w-full h-screen flex items-center justify-center flex-col"
+          id="home"
+        >
+          <Spline
+            className="w-[80%] h-[80%]"
+            scene="https://prod.spline.design/zOwPYoyVLNuAIN82/scene.splinecode"
+          />
+          <div className="absolute bottom-10 w-full flex justify-center items-center">
+            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
+              <p className="text-white">Press and drag to orbit</p>
+            </div>
+          </div>
+          <div className="w-full flex justify-center items-center mt-12">
+            <p className="text-white text-6xl text-center mt-12 ">
+              {/* Hi, I'm Sakjanon */}
+            </p>
+          </div>
+        </div>
 
         {/* Modal for Project Preview */}
         {isModalOpen && selectedProject && (
